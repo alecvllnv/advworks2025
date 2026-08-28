@@ -12,9 +12,9 @@ SELECT
     CASE COLUMN_NAME
         WHEN 'SalesOrderNumber'      THEN 'Sales order number'
         WHEN 'SalesOrderLineNumber'  THEN 'Line number of the order'
-        WHEN 'ProductKey'            THEN 'Identifies the product'
-        WHEN 'CustomerKey'           THEN 'Identifies the customer'
-        WHEN 'SalesTerritoryKey'     THEN 'Identifies the sales territory'
+        WHEN 'ProductKey'            THEN 'Identifies the unique product'
+        WHEN 'CustomerKey'           THEN 'Identifies the unique customer'
+        WHEN 'SalesTerritoryKey'     THEN 'Identifies the unique sales territory'
         WHEN 'OrderDate'             THEN 'Date when the order was placed'
         WHEN 'SalesYear'             THEN 'Year of the sale'
         WHEN 'SalesMonth'            THEN 'Month of the sale'
@@ -59,9 +59,9 @@ SELECT
     CASE COLUMN_NAME
         WHEN 'SalesOrderNumber'      THEN 'Reseller sales order number'
         WHEN 'SalesOrderLineNumber'  THEN 'Line number of the order'
-        WHEN 'ProductKey'            THEN 'Identifies the product'
-        WHEN 'ResellerKey'           THEN 'Identifies the reseller'
-        WHEN 'SalesTerritoryKey'     THEN 'Identifies the sales territory'
+        WHEN 'ProductKey'            THEN 'Identifies the unique product'
+        WHEN 'ResellerKey'           THEN 'Identifies the unique reseller'
+        WHEN 'SalesTerritoryKey'     THEN 'Identifies the unique sales territory'
         WHEN 'OrderDate'             THEN 'Date when the order was placed'
         WHEN 'SalesYear'             THEN 'Year of the sale'
         WHEN 'SalesMonth'            THEN 'Month of the sale'
@@ -115,9 +115,9 @@ SELECT
         WHEN 'Occupation'        THEN 'Customer occupation'
         WHEN 'HouseOwnerFlag'    THEN 'Indicates whether the customer owns a house'
         WHEN 'DateFirstPurchase' THEN 'Date of first purchase'
-        WHEN 'City'              THEN 'Customer city'
-        WHEN 'StateProvinceName' THEN 'Customer state or province'
-        WHEN 'Country'           THEN 'Customer country'
+        WHEN 'City'              THEN 'City where the customer resides'
+        WHEN 'StateProvinceName' THEN 'Province where the customer resides'
+        WHEN 'Country'           THEN 'Country where the customer resides'
     END AS BusinessDefinition,
     CASE COLUMN_NAME
         WHEN 'Education'         THEN 'Renamed and standardized using UPPER'
@@ -148,14 +148,14 @@ SELECT
     CASE COLUMN_NAME
         WHEN 'ProductKey'            THEN 'Unique product identifier'
         WHEN 'ProductName'           THEN 'Name of the product'
-        WHEN 'ProductSubcategoryKey' THEN 'Identifies the product subcategory'
+        WHEN 'ProductSubcategoryKey' THEN 'Unique identifier for the product subcategory'
         WHEN 'ProductSubcategory'    THEN 'Product subcategory'
         WHEN 'ProductCategory'       THEN 'Product category'
         WHEN 'StandardCost'          THEN 'Standard cost of the product'
         WHEN 'ListPrice'             THEN 'Listed selling price'
         WHEN 'Color'                 THEN 'Product color'
         WHEN 'Size'                  THEN 'Product size'
-        WHEN 'Weight'                THEN 'Product weight'
+        WHEN 'Weight'                THEN 'Product weight in grams'
         WHEN 'DaysToManufacture'     THEN 'Days needed to manufacture the product'
     END AS BusinessDefinition,
     CASE COLUMN_NAME
