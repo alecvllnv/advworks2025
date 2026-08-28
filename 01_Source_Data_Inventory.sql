@@ -2,6 +2,9 @@
    FILE 1: SOURCE DATA INVENTORY
 */
 
+USE AdventureWorksDW2025;
+GO
+
 -- 1. Check database
 SELECT DB_NAME() AS CurrentDatabase;
 GO
