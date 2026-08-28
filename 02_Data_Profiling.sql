@@ -2,6 +2,9 @@
    FILE 2: DATA PROFILING
 */
 
+USE AdventureWorksDW2025;
+GO
+
 -- 1. Row counts
 SELECT 'FactInternetSales' AS TableName, COUNT(*) AS TotalRows FROM dbo.FactInternetSales
 UNION ALL SELECT 'FactResellerSales',    COUNT(*)              FROM dbo.FactResellerSales
