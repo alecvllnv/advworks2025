@@ -109,3 +109,21 @@ SELECT COUNT(*) AS MatchingRows
 FROM dbo.DimGeography g
     INNER JOIN dbo.DimSalesTerritory t
         ON g.SalesTerritoryKey = t.SalesTerritoryKey;
+
+-- Reseller Sales -> Product
+SELECT COUNT(*) AS MatchingRows
+FROM dbo.FactResellerSales f
+    INNER JOIN dbo.DimProduct p
+        ON f.ProductKey = p.ProductKey;
+
+-- Reseller Sales -> Date
+SELECT COUNT(*) AS MatchingRows
+FROM dbo.FactResellerSales f
+    INNER JOIN dbo.DimDate d
+        ON f.OrderDateKey = d.DateKey;
+
+-- Reseller Sales -> Territory
+SELECT COUNT(*) AS MatchingRows
+FROM dbo.FactResellerSales f
+    INNER JOIN dbo.DimSalesTerritory t
+        ON f.SalesTerritoryKey = t.SalesTerritoryKey;
