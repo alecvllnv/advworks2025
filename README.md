@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project focuses on exploring, profiling, and preparing sales data from the AdventureWorksDW2025 data warehouse using Microsoft SQL Server.
+This group project focuses on exploring, profiling, and preparing sales data from the AdventureWorksDW2025 data warehouse using Microsoft SQL Server.
 
-The project examines both Internet Sales and Reseller Sales to establish a structured and reliable dataset for future business analysis. It involves source data inventory, data profiling, data cleaning, transformation, and data dictionary development.
+We examine both Internet Sales and Reseller Sales to establish structured and reliable datasets for future business analysis. Our workflow involves source data inventory, data profiling, data cleaning, transformation, and data dictionary development.
 
-The goal is to prepare consistent and analysis-ready datasets that can support business intelligence, sales performance evaluation, and data-driven decision-making.
+Our goal is to prepare consistent and analysis-ready datasets that can support business intelligence, sales performance evaluation, and data-driven decision-making.
 
 ## Objectives
 
@@ -27,9 +27,7 @@ The goal is to prepare consistent and analysis-ready datasets that can support b
 
 ### 1. Source Data Inventory
 
-Identified and examined relevant tables within the AdventureWorksDW2025 database.
-
-Tables covered:
+We identified and examined relevant tables within the AdventureWorksDW2025 database.
 
 **Fact Tables**
 - FactInternetSales
@@ -45,7 +43,7 @@ Tables covered:
 - DimProductSubcategory
 - DimProductCategory
 
-Activities included:
+Our activities included:
 - Database verification
 - Table identification
 - Column and data type inspection
@@ -54,9 +52,9 @@ Activities included:
 
 ### 2. Data Profiling
 
-Conducted data quality assessments across the source tables to identify potential issues and understand the characteristics of the datasets.
+We conducted data quality assessments across the source tables to identify potential issues and understand the characteristics of the datasets.
 
-Profiling activities included:
+Our profiling activities included:
 - Row count and data type inspection
 - NULL value assessment
 - Duplicate record detection
@@ -72,7 +70,7 @@ These checks provided a foundation for determining the necessary data preparatio
 
 ### 3. Data Cleaning & Transformation
 
-Created cleaned datasets using SQL queries, incorporating relevant attributes from fact and dimension tables.
+We created cleaned datasets using SQL queries, incorporating relevant attributes from fact and dimension tables.
 
 **Cleaned datasets created:**
 
@@ -96,9 +94,9 @@ Additional transformation steps included standardizing descriptive fields, repla
 
 ### 4. Data Dictionary Development
 
-Developed a data dictionary for the cleaned datasets to document their structure and business meaning.
+We developed a data dictionary for the cleaned datasets to document their structure and business meaning.
 
-The documentation includes:
+Our documentation includes:
 - Table names
 - Field names
 - Source systems
@@ -133,6 +131,8 @@ AdventureWorks-DW2025/
 └── 04_Data_Dictionary.sql
 ```
 
+*File names may be adjusted to match the actual repository structure.*
+
 ## Expected Deliverables
 
 - Source data inventory and relationship assessment
@@ -143,9 +143,9 @@ AdventureWorks-DW2025/
 
 ## Learning Outcomes
 
-Through this project, I developed practical experience in SQL-based data exploration, data quality assessment, data transformation, and database documentation.
+Through this project, we developed practical experience in SQL-based data exploration, data quality assessment, data transformation, and database documentation.
 
-It strengthened my understanding of how raw data warehouse tables can be examined and prepared for analytical applications and business intelligence.
+The project strengthened our understanding of how raw data warehouse tables can be examined and prepared for analytical applications and business intelligence.
 
 ---
 
