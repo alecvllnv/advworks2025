@@ -133,8 +133,6 @@ AdventureWorks-DW2025/
 └── 04_Data_Dictionary.sql
 ```
 
-*File names may be adjusted to match the actual repository structure.*
-
 ## Expected Deliverables
 
 - Source data inventory and relationship assessment
@@ -153,7 +151,7 @@ It strengthened my understanding of how raw data warehouse tables can be examine
 
 **Project Focus:** Data Analytics | SQL | Data Cleaning | Data Profiling | Business Intelligence
 
-**Author:** [Your Name]
+**Author:** Alecsandra Z. Villanueva
 
 **Academic Program:** BS Data Science and Analytics
 
