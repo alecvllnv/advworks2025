@@ -150,9 +150,3 @@ It strengthened my understanding of how raw data warehouse tables can be examine
 ---
 
 **Project Focus:** Data Analytics | SQL | Data Cleaning | Data Profiling | Business Intelligence
-
-**Author:** Alecsandra Z. Villanueva
-
-**Academic Program:** BS Data Science and Analytics
-
-**University:** University of Santo Tomas
